@@ -1,0 +1,110 @@
+export const lessonData = [
+  {
+    id: 0,
+    title: "React Native Kurulumu - Ders 1",
+    description: "React Native'in kurulumu hakkında temel bilgiler.",
+    videoUrl: "https://www.youtube.com/watch?v=1nxUUz7MSu8&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=1&pp=iAQB",
+  },
+  {
+    id: 1,
+    title: "Proje Oluşturma ve Bileşenler - Ders 2",
+    description: "Yeni bir React Native projesi oluşturma ve yapısı.",
+    videoUrl: "https://www.youtube.com/watch?v=Q5ZAXbCtOMg&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=2&pp=iAQB",
+  },
+  {
+    id: 2,
+    title: "View, Text ve Style - Ders 3",
+    description: "Temel bileşenlerin görünümünü ve stillerini ayarlama.",
+    videoUrl: "https://www.youtube.com/watch?v=_ogXZhCgVSA&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=3&pp=iAQB",
+  },
+  {
+    id: 3,
+    title: "TextInput, Pressable ve useState - Ders 4",
+    description: "Kullanıcı girişi ve etkileşimli bileşenler.",
+    videoUrl: "https://www.youtube.com/watch?v=BXrZXVBuBDA&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=4&pp=iAQB",
+  },
+  {
+    id: 4,
+    title: "Image, Component, Props - Ders 5",
+    description: "Görseller, özel bileşenler ve props kullanımı.",
+    videoUrl: "https://www.youtube.com/watch?v=Hq5ccJyBgTs&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=5&pp=iAQB",
+  },
+  {
+    id: 5,
+    title: "Navigation ile Sayfa Geçişi - Ders 6",
+    description: "React Navigation kullanarak ekranlar arası geçiş.",
+    videoUrl: "https://www.youtube.com/watch?v=3h70mX6vEIc&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=6&pp=iAQB",
+  },
+  {
+    id: 6,
+    title: "Kullanıcı Girişi ve Props - Ders 7",
+    description: "Kullanıcı girişine göre ekran yönlendirme.",
+    videoUrl: "https://www.youtube.com/watch?v=TA1TZyPJlzk&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=7&pp=iAQB",
+  },
+  {
+    id: 7,
+    title: "Component'leri Dışarı Taşıma - Ders 8",
+    description: "Kod tekrarını azaltmak için component yapıları.",
+    videoUrl: "https://www.youtube.com/watch?v=iPsbPRSy4Lg&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=8&pp=iAQB",
+  },
+  {
+    id: 8,
+    title: "FlexBox ve Reusable Pratikleri - Ders 9",
+    description: "Esnek tasarımlar ve yeniden kullanılabilir bileşenler.",
+    videoUrl: "https://www.youtube.com/watch?v=dnhyrmW0A58&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=9&pp=iAQB",
+  },
+  {
+    id: 9,
+    title: "Redux Toolkit Kullanımı - Ders 10",
+    description: "State yönetimi için Redux Toolkit kullanımı.",
+    videoUrl: "https://www.youtube.com/watch?v=TZcWBR8xL5Y&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=10&pp=iAQB0gcJCYQJAYcqIYzv",
+  },
+  {
+    id: 10,
+    title: "Redux ExtraReducers & Firebase - Ders 11",
+    description: "Ekstra reducer'lar ve Firebase bağlantısı.",
+    videoUrl: "https://www.youtube.com/watch?v=rN33mgaJN18&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=11&pp=iAQB",
+  },
+  {
+    id: 11,
+    title: "Firestore Veri İşlemleri - Ders 12",
+    description: "Veri ekleme, okuma, silme ve güncelleme işlemleri.",
+    videoUrl: "https://www.youtube.com/watch?v=W1yM-zX-vPU&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=12&pp=iAQB",
+  },
+  {
+    id: 12,
+    title: "Firestore'dan Tüm Verileri Çekme - Ders 13",
+    description: "Veri listesini çekme ve listeleme.",
+    videoUrl: "https://www.youtube.com/watch?v=gcAeSKmFMnw&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=13&pp=iAQB",
+  },
+  {
+    id: 13,
+    title: "Veri Silme & Güncelleme - Ders 14",
+    description: "Spesifik veriler üzerinde işlem yapma.",
+    videoUrl: "https://www.youtube.com/watch?v=GXSHwrfWJMo&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=15&pp=iAQB",
+  },
+  {
+    id: 14,
+    title: "Auto Login İşlemleri - Ders 15",
+    description: "Otomatik giriş sistemi.",
+    videoUrl: "https://www.youtube.com/watch?v=GXSHwrfWJMo&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=15&pp=iAQB",
+  },
+  {
+    id: 15,
+    title: "Kayıt Olma ve Logout - Ders 16",
+    description: "Kullanıcı kayıt ve çıkış işlemleri.",
+    videoUrl: "https://www.youtube.com/watch?v=7KPz9kL5__c&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=16&pp=iAQB",
+  },
+  {
+    id: 16,
+    title: "Reanimated ile Animasyon - Ders 17",
+    description: "React Native ile animasyon ekleme.",
+    videoUrl: "https://www.youtube.com/watch?v=qFcyJnGSYxM&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=17&pp=iAQB",
+  },
+  {
+    id: 17,
+    title: "To Do App Tamamı - Ders 18",
+    description: "18 ders sonunda To Do List uygulamasının tamamlanması.",
+    videoUrl: "https://www.youtube.com/watch?v=S2KYSLexiFc&list=PLZFrBLNgbT_nv3et1ffaAspHIe8ds-ceX&index=18&pp=iAQB",
+  }
+]; 

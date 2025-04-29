@@ -5,6 +5,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
 import 'react-native-reanimated';
+import { ProgressProvider } from '@/context/ProgressContext';
 
 import { useColorScheme } from '@/hooks/useColorScheme';
 
@@ -29,10 +30,30 @@ export default function RootLayout() {
 
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="+not-found" />
-      </Stack>
+      <ProgressProvider>
+        <Stack>
+          <Stack.Screen
+            name="(tabs)"
+            options={{
+              headerShown: false,
+            }}
+          />
+          <Stack.Screen
+            name="lesson/[id]"
+            options={{
+              title: 'Ders',
+              headerShown: false,
+            }}
+          />
+          <Stack.Screen
+            name="quiz/[id]"
+            options={{
+              title: 'Quiz',
+              headerShown: false,
+            }}
+          />
+        </Stack>
+      </ProgressProvider>
       <StatusBar style="auto" />
     </ThemeProvider>
   );
